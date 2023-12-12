@@ -1,26 +1,73 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ufoma Okoriogha Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .contact-me {
+      margin-top: 40px;
+    }
+    .bottom-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .footer-link {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
 <body>
-    <!-- If you feel confident, you can try putting your image in here. -->
-  <!-- <img class="profile-image " src="assets/images/1654699612942.jfif" alt="profile picture"> --> 
-   <h1>Ufoma Okoriogha's Python Portfolio</h1> <!-- Put your name here --> 
+  <h1>Ufoma Okoriogha's Python Portfolio</h1>
   <div>
-   <!-- Put a paragraph about yourself here. It doesn't have to be super long. --> I am currently a Data Science Fellow looking to pivot from the Youth Development/Education sector into Computer Science.
-    I am currently working on creating Data Science related projects in Python: such as machine learning fundamentals and data visualization. This Github portfolio outlines my Data Science journey, and 
-    I look forward to building more meaningful/complex projects as I strengthen my technical skills. 
-   <p>This portfolio is focuses on my own Python development as a developer. Here you will find projects targeting software engineering principles.</p>
-  <p> My portfolio which focuses more on Data Science can be found here: <a href="https://ufomaok.github.io/">Ufoma's Data Science github.io</a> </p>
- </div>
+    <p>
+      I am currently a Data Science Fellow looking to pivot from the Youth Development/Education sector into Computer Science.
+      I am currently working on creating Data Science-related projects in Python, such as machine learning fundamentals and data visualization. 
+      This GitHub portfolio outlines my Data Science journey, and I look forward to building more meaningful/complex projects as I strengthen my technical skills.
+    </p>
+    <p>
+      This portfolio focuses on my own Python development as a developer. Here you will find projects targeting software engineering principles.
+    </p>
+    <p>
+      My portfolio, which focuses more on Data Science, can be found here: <a href="https://ufomaok.github.io/">Ufoma's Data Science GitHub.io</a>
+    </p>
+  </div>
   <p>Topics covered thus far are:</p>
-
   <div class="table">
     <table>
       <thead>
@@ -29,46 +76,38 @@
           <th>Covered Topics</th>
         </tr>
       </thead>
-           <tbody>
+      <tbody>
         <!-- Replace with your own list of concepts and topics  -->
         <tr>
-            <!-- remove the a href and </a> tags, leave only the <td></td> with the text in the middle being what you want -->
-          <td><a href="https://github.com/ufomaok/shopping_behavior"> Python for Data Analysis</a></td>
-          <td>Pandas, Inferential Statistics, Data Visualization, T-Tests/P-Value </td>
+          <td><a href="https://github.com/ufomaok/shopping_behavior">Python for Data Analysis</a></td>
+          <td>Pandas, Inferential Statistics, Data Visualization, T-Tests/P-Value</td>
         </tr>
         <tr>
-          <td><a href="https://github.com/ufomaok/bank_activity/tree/main/bank-activity-lab"> Data Analytics and Machine Learning</a></td>
-          <td>Pandas, Inferential Statistics, Machine Learning, Unit Testing, Object Oriented Programming, Data Validation</td>
+          <td><a href="https://github.com/ufomaok/bank_activity/tree/main/bank-activity-lab">Data Analytics and Machine Learning</a></td>
+          <td>Pandas, Inferential Statistics, Machine Learning, Unit Testing, Object-Oriented Programming, Data Validation</td>
         </tr>
         <tr>
-          <td><a href="https://github.com/ufomaok/rental_pricing_prediction"> Python for Predictive Modeling</a></td>
-          <td> Pandas, Numpy, Matplotlib, Inferential Statistics, Machine Learning</td>
+          <td><a href="https://github.com/ufomaok/rental_pricing_prediction">Python for Predictive Modeling</a></td>
+          <td>Pandas, Numpy, Matplotlib, Inferential Statistics, Machine Learning</td>
         </tr>
         <tr>
-          <td><a href="https://github.com/ufomaok/energy_efficiency"> Modeling for Muliple Linear Regression</a></td>
-          <td> Pandas, MatplotLib, Numpy, SciKitLearn, Linear Regression, EDA, Feature Selection, Linear Regression, Chi2</td>
+          <td><a href="https://github.com/ufomaok/energy_efficiency">Modeling for Muliple Linear Regression</a></td>
+          <td>Pandas, Matplotlib, Numpy, SciKitLearn, Linear Regression, EDA, Feature Selection, Linear Regression, Chi2</td>
         </tr>
-      
       </tbody>
     </table>
-
-    <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3>Contact me below.</h3>
-          <!-- Replace with your own email, test to see if the button works -->
-          <a CONTACT ME</a>
-        </div>
-      </div>
-      
-      <!-- Replace with your own links -->
-      <div class="bottom-container">
-        <a class="footer-link" href="www.linkedin.com/in/ufoma-o-639b37131" target="_blank">LinkedIn</a>
-        <a class="footer-link" href="https://github.com/ufomaok" target="_blank">GitHub</a>
-    
-      </div>
   </div>
-
-  
-
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>Contact me below.</h3>
+    <!-- Replace with your own email, test to see if the button works -->
+    <a href="mailto:your.email@example.com">CONTACT ME</a>
+  </div>
+  <!-- Replace with your own links -->
+  <div class="bottom-container">
+    <a class="footer-link" href="www.linkedin.com/in/ufoma-o-639b37131" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/ufomaok" target="_blank">GitHub</a>
+  </div>
 </body>
+</html>
