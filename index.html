@@ -50,10 +50,22 @@
       text-decoration: none;
       color: #333;
     }
+  </style>
+</head>
+    <style>
+    /* Your existing styles here */
+
+    .profile-image {
+      max-width: 55%; /* Ensure image doesn't exceed container */
+      height: auto;
+      margin: 20px auto; /* Center the image horizontally and add margin */
+      display: block; /* Remove any extra spacing below the image */
+    }
+  </style>
 </head>
 <body>
   <h1>Ufoma Okoriogha's Python Portfolio</h1>
-  <img style="max-width: 50%; display: block; margin: 20px auto;" src="headshot.jpg" alt="Headshot">
+  <img class="profile-image" src="headshot.jpg" alt="Headshot">
   <div>
     <p>
       I am currently a Data Science Fellow looking to pivot from the Youth Development/Education sector into Computer Science.
@@ -108,6 +120,9 @@
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/ufoma-o-639b37131" target="_blank">LinkedIn</a>
     <a class="footer-link" href="https://github.com/ufomaok" target="_blank">GitHub</a>
+  </div>
+</body>
+</html>
   </div>
 </body>
 </html>
